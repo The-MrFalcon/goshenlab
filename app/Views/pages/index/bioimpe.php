@@ -9,7 +9,7 @@
                      <p class="mb-4">A bioimpedância é um exame que analisa a composição corporal, indicando a quantidade aproximada de músculo, osso e gordura.</h1>
                      <p class="mb-4">Exame muito utilizado em academias como complemento em consultas de nutricionistas para avaliar a composição corporal da pessoa e, assim, indicar o melhor plano alimentar e de treino ou para avaliar os resultados.</p>
                      <p>Utilizamos a balança Inbody 120 portátil.</p>
-                     <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="https://api.whatsapp.com/send?phone=5511976862826" target="_blank">Agende já seus exames!</a>
+                     <a data-bs-toggle="modal" data-bs-target="#contact" type="button" class="btn btn-primary rounded-pill py-3 px-5 mt-3"></i>Agende já seus exames!</a>
                  </div>
              </div>
              <div class="col-lg-6 rast pe-lg-0 wow bounceInRight " data-wow-delay="1.2s">

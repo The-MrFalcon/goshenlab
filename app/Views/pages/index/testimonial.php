@@ -109,7 +109,7 @@
             </div>
         </div>
         <div class="d-flex justify-content-center">
-            <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="https://api.whatsapp.com/send?phone=5511976862826" target="_blank">Ver mais exames</a>
+            <a data-bs-toggle="modal" data-bs-target="#contact" type="button" class="btn btn-primary rounded-pill py-3 px-5 mt-3 zoomOut"></i>Agende já seus exames!</a>
         </div>
     </div>
 </div>

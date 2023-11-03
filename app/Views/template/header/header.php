@@ -46,23 +46,23 @@
     <!-- Topbar Start -->
     <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-8 px-5 text-start">
+            <div class="col-lg-6 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <small class="badge rounded-pill bg-primary"><i class="fa fa-map-marker-alt me-2"></i>R. Conselheiro Saraiva, 425 – Santana, São Paulo – SP, 02037-020</small>
+                    <small><a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#endereco"><i class="fa fa-map-marker-alt me-1"></i>Endereços </a></small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <small><a class="button btn btn-primary" data-bs-toggle="modal" data-bs-target="#hour"><i class="fa-regular fa-clock me-2"></i><span>Todos os horários</span> </a></small>
                 </div>
             </div>
-            <div class="col-lg-4 px-5 text-end">
+            <div class="col-lg-6 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-phone-alt text-dark me-2"></small>
-                    <small>(11) 9 7686-2826</small>
+                    <small class="text-dark">(11) 97686-2826|(11) 966189614</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square rounded-circle bg-white text-dark me-1" data-bs-toggle="modal" data-bs-target="#contact"><i class="fa-regular fab fa-whatsapp"></i></a></small>
                     <a class="btn btn-sm-square rounded-circle bg-white text-dark me-1" data-wow-delay="0.1s" href="https://www.instagram.com/goshenlab/"><i class="fab fa-instagram"></i></a>
                     <a class="btn btn-sm-square rounded-circle bg-white text-dark me-1" data-wow-delay="0.3s" href="https://www.facebook.com/goshenlab"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square rounded-circle bg-white text-dark me-1" data-wow-delay="0.5s" href="https://api.whatsapp.com/send?phone=5511976862826"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@
     </div>
     <!-- Modal Horários End -->
 
-
+    
     <!-- Navbar Start -->
     <nav class="navbar fill navbar-expand-lg navbar-dark sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
         <a href="/" class="navbar-brand d-flex px-4 px-lg-5">
@@ -148,9 +148,9 @@
                                                                 } ?>"><i class="fa-solid fa-mobile-screen-button me-1"></i>Contato</a> -->
 
             </div>
-            <div class="btn-group text-center ms-2 me-2" role="group" aria-label="Basic outlined example">
-                <a href="https://api.whatsapp.com/send?phone=5511976862826" type="button" class="p-2 btn btn-outline-light"><i class="fa-solid fa-calendar-check me-1"></i>Agende seus exames<i class="fa fa-arrow-right ms-3"></i></a>
-                <a href="https://portal.worklabweb.com.br/resultados/2087" type="button" class="p-2 btn btn-outline-light"><i class="fa-solid fa-file-waveform me-1"></i>Resultado dos exames<i class="fa fa-arrow-right ms-3"></i></a>
+            <div class="d-grid gap-2 px-2 d-md-flex justify-content-md-end">
+                <a data-bs-toggle="modal" data-bs-target="#contact" type="button" class="p-2 btn btn-outline-light"><i class="fa-solid fa-calendar-check me-1"></i>Agendar exames</a>
+                <a href="https://portal.worklabweb.com.br/resultados/2087" type="button" class="p-2 btn btn-outline-light"><i class="fa-solid fa-file-waveform me-1"></i>Resultados exames</a>
             </div>
         </div>
     </nav>
